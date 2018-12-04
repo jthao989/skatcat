@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Skatty Catty
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+<ion-card-header>
+  Skat Cat
+</ion-card-header>
+<ion-card-content>
+Not the same as "Cat in the Hat"
+<br>
+"i smoked this little girl in the face in dodgeball one time... then i got kicked out" <i>Tamar</i>
+</ion-card-content>
+  </ion-card>
+<ion-card>
+  <ion-card-header>Next revenge date</ion-card-header>
+  <ion-item>
+    <ion-label position="floating">MM/DD/YYYY</ion-label>
+    <ion-datetime displayFormat="MM/DD/YYYY" min="2018-12-04" max="2020-12-31" value="2018-12-04"></ion-datetime>
+  </ion-item>
+</ion-card>
+<ion-card>
+<ion-card-header>Check here if you want to smoke kids in the face in dodgeball with Tamar</ion-card-header>
+<ion-checkbox></ion-checkbox>
+    <ion-item>
+      <ion-label>Want to go?</ion-label>
+      <ion-checkbox slot="end" value="recurring" checked></ion-checkbox>
+    </ion-item>
+</ion-card>
+<ion-button (click)='catpower()'>CATPOWER</ion-button>
+</ion-content>
